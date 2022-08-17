@@ -13,7 +13,7 @@ const Hero = () => {
       <img className="hero-jj" src={hero.image} alt="yo" />
     </div>
       <div className="hero-boxes">
-        <a title="Linkedin" href="www.linkedin.com/in/chris-depedro">
+        <a title="Linkedin" href="https://www.linkedin.com/in/chris-depedro/">
           <img src="./images/link.png" alt="Linkedin" target="_blank" />
         </a>
         <a title="Github" href="https://github.com/cdpex00" >

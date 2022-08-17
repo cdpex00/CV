@@ -11,7 +11,6 @@ const Navbar = () => {
         <ul>
           <li onClick={() => dispatch(setSectionInfo('education'))}>FORMACIÓN</li>
           <li onClick={() => dispatch(setSectionInfo('experience'))}>EXPERIENCIA</li>
-          <li onClick={() => dispatch(setSectionInfo('more'))}>HABILIDADES</li>
           
         </ul>
       </nav>

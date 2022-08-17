@@ -23,7 +23,7 @@ const CV = {
         where: "Liceo Sorolla B",
       },
       {
-        name: "Formación Profesional Básica ",
+        name: "Formación Profesional Básica Marketing y Comercio ",
         date: "sept 2014 - may 2016",
         where: "IES Maria Inmaculada",
       },
