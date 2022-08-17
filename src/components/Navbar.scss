@@ -1,0 +1,35 @@
+@import '_fonts';
+
+.navbar {
+    margin-top: 20px;
+    ul {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+       
+    }
+    li {
+        width: 150px;
+        align-items: center;
+        border-radius: 10px;
+        margin-top: 40px;
+        background-color: #1274b24d;
+        margin: 0 10px;
+        font-family: var(--subheader);
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: color 0.2s ease-in-out;
+        &:hover {
+            color: black;
+        }
+        &:active {
+            color: black;
+        }
+        @media screen and (min-width: 1200px) {
+            font-size: 20px;
+            margin: 0 20px;
+        }
+    }
+}
+

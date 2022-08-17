@@ -1,0 +1,58 @@
+@import "_colors";
+
+.more {
+    padding: 0 20px 40px 20px;
+    @media screen and (min-width: 1200px) {
+        width: 1000px;
+        margin: 0 auto;
+    }
+    h3 {
+        font-family: var(--subheader);
+        @media screen and (min-width: 1200px) {
+            font-size: 20px;
+        
+        }
+    }
+}
+
+.more__lang {
+    margin: 20px 0;
+    display: flex;
+    div {
+        margin-left: 40px;
+        @media screen and (min-width: 1200px) {
+            margin-left: 175px;   
+        }
+        font-weight: bold;
+    }
+    @media screen and (min-width: 1200px) {
+        margin: 40px 0;
+    }
+}
+
+.more__skills {
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        flex-wrap: wrap;
+      }
+}
+
+.more__skills--tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    @media screen and (min-width: 1200px) {
+        width: 70%;
+        margin-left: 120px;
+        margin-top: 0;
+        justify-content: center;
+      }
+    p {
+        background-color: var(--subh);
+        border-radius: 5px;
+        padding: 5px;
+        margin: 5px 20px 5px 0;
+        font-weight: bold;
+        
+    }
+}

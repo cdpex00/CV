@@ -1,0 +1,26 @@
+.about {
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    text-justify: inter-word;
+    @media screen and (min-width: 1200px) {
+        max-width: 1000px;
+        margin: 50px auto 60px auto;
+    }
+    h3 {
+        font-family: var(--subheader);
+        @media screen and (min-width: 1200px) {
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+    p {
+       width: 240px;
+       @media screen and (min-width: 1200px) {
+        width: 755px;
+        align-items: center;
+    }
+    }
+    
+}
+

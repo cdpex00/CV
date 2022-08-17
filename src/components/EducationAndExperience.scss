@@ -1,0 +1,47 @@
+.educationAndExperience {
+    padding: 20px 40px 10px 40px;
+    @media screen and (min-width: 1200px) {
+        width: 512px;
+        margin: 20px auto;
+        background-color: #1274b24d;
+        border-radius: 10px;
+        padding: 50px;
+        font-weight: bolder;
+    }
+}
+
+.educationAndExperience__container {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    @media screen and (min-width: 1200px) {
+        justify-content: unset;
+        
+    }
+    
+}
+
+.educationAndExperience__container--date {
+    width: 20%;
+    p {
+        font-weight: 600;
+    }
+    @media screen and (min-width: 1200px) {
+        width: 300px;
+    }
+}
+
+.educationAndExperience__container--text {
+    width: calc(80% - 40px);
+    @media screen and (min-width: 1200px) {
+        width: 100%;
+    }
+}
+
+.educationAndExperience__container--name {
+    font-weight: 600;
+}
+
+.educationAndExperience__container--desc {
+    font-family: var(--desc);
+}
