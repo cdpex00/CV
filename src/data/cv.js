@@ -68,7 +68,7 @@ const CV = {
       "MySQL ",
       "Mongo ",
       "Git ",
-      "PHP",
+      "Java",
     ],
   };
 
